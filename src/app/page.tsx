@@ -5,7 +5,7 @@ import { ProjectListings } from '@/app/(components)/sections/project-listings';
 import { BenefitsSection } from '@/app/(components)/sections/benefits-section';
 import { ConstructionOptionsSection } from '@/app/(components)/sections/construction-options-section';
 import { PhotoGallerySection } from '@/app/(components)/sections/photo-gallery-section';
-import { ContactForm } from '@/app/(components)/ui/contact-form'; 
+import { TestimonialsSection } from '@/app/(components)/sections/testimonials-section';
 
 export default function HomePage() {
   return (
@@ -15,9 +15,9 @@ export default function HomePage() {
         <HeroSection />
         <ProjectListings />
         <BenefitsSection />
+        <TestimonialsSection />
         <ConstructionOptionsSection />
         <PhotoGallerySection />
-        <ContactForm /> 
       </main>
       <Footer />
     </div>

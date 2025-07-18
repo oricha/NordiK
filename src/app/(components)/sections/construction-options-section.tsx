@@ -2,38 +2,26 @@ export function ConstructionOptionsSection() {
   const options = [
     {
       title: "Llave en Mano",
-      description: "Nos encargamos de todo, desde el diseño hasta la entrega final",
-      price: "Desde €180,000",
+      description: "Nos encargamos de todo, desde la cimentación hasta los acabados finales.",
+      price: "Desde 1.500 €/m²",
       features: [
-        "Diseño personalizado",
-        "Gestión de permisos",
-        "Construcción completa",
-        "Acabados premium",
-        "Entrega lista para vivir"
+        "Diseño y personalización",
+        "Gestión integral de licencias",
+        "Construcción y montaje",
+        "Acabados de alta calidad",
+        "Entrega en plazos garantizados"
       ]
     },
     {
-      title: "Kit de Construcción",
-      description: "Recibe los materiales y construye a tu ritmo",
-      price: "Desde €120,000",
+      title: "Estructura y Cerramientos",
+      description: "Te proporcionamos la estructura y cerramientos exteriores.",
+      price: "Desde 800 €/m²",
       features: [
-        "Materiales certificados",
-        "Planos detallados",
-        "Soporte técnico",
-        "Manual de montaje",
-        "Garantía de materiales"
-      ]
-    },
-    {
-      title: "Asesoramiento",
-      description: "Te guiamos en todo el proceso de construcción",
-      price: "Desde €15,000",
-      features: [
-        "Consultoría especializada",
-        "Selección de materiales",
-        "Supervisión de obra",
-        "Control de calidad",
-        "Seguimiento del proyecto"
+        "Estructura de madera laminada",
+        "Paneles de cerramiento exterior",
+        "Cubierta y aislamiento",
+        "Planos y soporte técnico",
+        "Flexibilidad para acabados"
       ]
     }
   ]
@@ -43,14 +31,14 @@ export function ConstructionOptionsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Opciones de Construcción
+            Nuestras Modalidades
           </h2>
           <p className="text-xl text-gray-600">
-            Elige la opción que mejor se adapte a tus necesidades
+            Flexibilidad para adaptarnos a tu proyecto y presupuesto.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {options.map((option, index) => (
             <div key={index} className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">
@@ -73,7 +61,7 @@ export function ConstructionOptionsSection() {
                 ))}
               </ul>
               <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Solicitar Información
+                Más Información
               </button>
             </div>
           ))}

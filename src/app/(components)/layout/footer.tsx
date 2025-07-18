@@ -36,6 +36,11 @@ export function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/#testimonials" className="text-gray-300 hover:text-white">
+                  Testimonios
+                </a>
+              </li>
+              <li>
                 <a href="/proyects" className="text-gray-300 hover:text-white">
                   Proyectos
                 </a>
@@ -46,7 +51,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-300 hover:text-white">
+                <a href="/contact" className="text-gray-300 hover:text-white">
                   Contacto
                 </a>
               </li>

@@ -2,27 +2,27 @@ export function ProjectListings() {
   const projects = [
     {
       id: 1,
-      title: "Casa Nórdica Moderna",
-      description: "Casa de 120m² con 3 habitaciones y diseño minimalista",
-      price: "€180,000",
+      title: "Modelo Aspen",
+      description: "150 m² de diseño y confort, ideal para familias.",
+      price: "Desde 225.000€",
       image: "/api/placeholder/400/300",
-      features: ["3 habitaciones", "2 baños", "Cocina abierta", "Terraza"]
+      features: ["3 hab", "2 baños", "Terraza", "Cocina abierta"]
     },
     {
       id: 2,
-      title: "Villa Sostenible",
-      description: "Villa de 200m² con jardín y energía solar",
-      price: "€320,000",
+      title: "Modelo Bergen",
+      description: "200 m² de lujo y sostenibilidad con vistas panorámicas.",
+      price: "Desde 300.000€",
       image: "/api/placeholder/400/300",
-      features: ["4 habitaciones", "3 baños", "Jardín", "Energía solar"]
+      features: ["4 hab", "3 baños", "Garaje", "Eficiencia A"]
     },
     {
       id: 3,
-      title: "Casa Familiar",
-      description: "Casa de 150m² perfecta para familias",
-      price: "€250,000",
+      title: "Modelo Cortina",
+      description: "120 m² de estilo y funcionalidad en un diseño compacto.",
+      price: "Desde 180.000€",
       image: "/api/placeholder/400/300",
-      features: ["4 habitaciones", "2 baños", "Garaje", "Patio"]
+      features: ["2 hab", "2 baños", "Porche", "Diseño modular"]
     }
   ]
 
@@ -31,10 +31,10 @@ export function ProjectListings() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Nuestros Proyectos Destacados
+            Modelos Destacados
           </h2>
           <p className="text-xl text-gray-600">
-            Descubre nuestras casas más populares
+            Diseños pensados para una vida moderna y sostenible.
           </p>
         </div>
 

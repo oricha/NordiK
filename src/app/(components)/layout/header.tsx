@@ -23,13 +23,16 @@ export function Header() {
             <Link href="/" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Inicio
             </Link>
+            <Link href="/#testimonials" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+              Testimonios
+            </Link>
             <Link href="/proyects" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Proyectos
             </Link>
             <Link href="/all-models" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Modelos
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+            <Link href="/contact" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Contacto
             </Link>
           </nav>
@@ -57,6 +60,13 @@ export function Header() {
                 Inicio
               </Link>
               <Link
+                href="/#testimonials"
+                className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Testimonios
+              </Link>
+              <Link
                 href="/proyects"
                 className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium"
                 onClick={() => setIsMenuOpen(false)}
@@ -71,7 +81,7 @@ export function Header() {
                 Modelos
               </Link>
               <Link
-                href="#contact"
+                href="/contact"
                 className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >

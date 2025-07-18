@@ -4,20 +4,20 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Casas Modernas de
-            <span className="text-blue-600"> Alta Calidad</span>
+            Tu Hogar Ideal,
+            <span className="text-blue-600"> Hecho Realidad</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Construimos casas sostenibles con estructura de madera, 
-            combinando el diseño nórdico con la calidad española.
+            Creamos casas prefabricadas de diseño, sostenibles y personalizadas.
+            La calidad y la innovación nos definen.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              Ver Proyectos
-            </button>
-            <button className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
-              Solicitar Presupuesto
-            </button>
+            <a href="/all-models" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              Explorar Modelos
+            </a>
+            <a href="/contact" className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+              Contactar
+            </a>
           </div>
         </div>
       </div>

@@ -3,24 +3,24 @@ import { Home, Leaf, Shield, Zap } from 'lucide-react'
 export function BenefitsSection() {
   const benefits = [
     {
-      icon: Home,
-      title: "Diseño Personalizado",
-      description: "Cada casa se adapta a tus necesidades específicas y estilo de vida"
+      icon: Zap,
+      title: "Rapidez y Eficiencia",
+      description: "Construcción hasta un 50% más rápida que los métodos tradicionales."
     },
     {
       icon: Leaf,
-      title: "Materiales Sostenibles",
-      description: "Utilizamos madera certificada y materiales eco-friendly"
+      title: "Sostenibilidad",
+      description: "Materiales ecológicos y un proceso que minimiza el desperdicio."
+    },
+    {
+      icon: Home,
+      title: "Personalización Total",
+      description: "Diseños flexibles que se adaptan a tus sueños y necesidades."
     },
     {
       icon: Shield,
-      title: "Calidad Garantizada",
-      description: "10 años de garantía en estructura y acabados premium"
-    },
-    {
-      icon: Zap,
-      title: "Construcción Rápida",
-      description: "Tu casa lista en 3-6 meses con nuestro sistema modular"
+      title: "Calidad Superior",
+      description: "Control de calidad exhaustivo en cada fase del proyecto."
     }
   ]
 
@@ -29,10 +29,10 @@ export function BenefitsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            ¿Por qué elegir Nordic Abodes?
+            Ventajas de Elegir NordiK
           </h2>
           <p className="text-xl text-gray-600">
-            Descubre las ventajas de construir con nosotros
+            Innovación, calidad y sostenibilidad en cada hogar que construimos.
           </p>
         </div>
 
