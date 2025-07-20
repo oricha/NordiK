@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Nordic Abodes</h3>
+            <h3 className="text-2xl font-bold mb-4">NordiKa Studio</h3>
             <p className="text-gray-300 mb-4">
               Casas modernas de alta calidad con estructura de madera. 
               Construimos sueños con materiales sostenibles y diseño nórdico.
@@ -62,16 +62,16 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contacto</h4>
             <div className="space-y-2 text-gray-300">
-              <p>info@nordicabodes.com</p>
+              <p>info@nordikastudio.com</p>
               <p>+34 123 456 789</p>
-              <p>Madrid, España</p>
+              <p>Barcelona, España</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8">
           <p className="text-center text-gray-300">
-            © 2024 Nordic Abodes. Todos los derechos reservados.
+            © 2024 NordiKa Studio. Todos los derechos reservados.
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Nordic Abodes',
+  title: 'NordiKa Studio',
   description: 'Casas modernas de alta calidad con estructura de madera',
 };
 

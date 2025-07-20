@@ -14,7 +14,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold text-gray-900">
-              Nordic Abodes
+              NordKa Studio
             </Link>
           </div>
 
